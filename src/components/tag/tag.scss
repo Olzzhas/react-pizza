@@ -1,0 +1,64 @@
+.tag-checked{
+    display: flex;
+    height: 46px;
+    width: fit-content;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    background: #282828;
+    border-radius: 30px;
+
+    margin-right: 9px;
+
+    span{
+        margin: auto;
+        padding: 0 28px;
+        
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.015em;
+
+        color: #FFFFFF;
+    }
+}
+
+.tag-checked:hover{
+    background: #0f0f0f;
+}
+
+
+.tag-unchecked{
+    display: flex;
+    height: 46px;
+    width: fit-content;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    background: #F9F9F9;
+    border-radius: 30px;
+
+    margin-right: 9px;
+
+    span{
+        margin: auto;
+        padding: 0 28px;
+        
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.015em;
+
+        color: #2C2C2C;
+    }
+}
+
+.tag-unchecked:hover{
+    background: #bebebe;
+}
