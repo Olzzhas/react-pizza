@@ -1,3 +1,4 @@
+import Card from "../../components/card/Card";
 import Navbar from "../../components/navbar/Navbar";
 import Tag from "../../components/tag/Tag";
 import "./main.scss"
@@ -29,7 +30,13 @@ function Main(){
                 </div>
 
 
-                
+                <div className="title__container">
+                    <h1>Все пиццы</h1>
+                </div>
+
+                <div className="pizzas__contaner">
+                    <Card/> <Card/> <Card/> <Card/> <Card/> <Card/> <Card/> <Card/> 
+                </div>
             </div>
         </div>
     )

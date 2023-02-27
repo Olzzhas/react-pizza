@@ -76,3 +76,30 @@
     }
 }
 
+.title__container{
+    width: 1225px;
+    margin: auto;
+
+    h1{
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+
+        letter-spacing: 0.01em;
+
+        color: #000000;
+    }
+}
+
+.pizzas__contaner{
+    width: 1225px;
+    margin: auto;
+
+    margin-top: 35px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
